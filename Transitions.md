@@ -1,330 +1,159 @@
-# Prompt para generar el Capítulo 3 - CSS Transitions
+# Capítulo 3 – CSS Transitions
 
-Quiero crear una nueva sección dentro de Genesis Pixel llamada:
+## Lección 1 – ¿Qué son las Transitions?
 
-# CSS Transitions
-
-Ruta principal:
-
-/transitions
-
-Esta sección debe ser una evolución natural de los capítulos anteriores (Keyframes y Transform), pero enfocada en cómo los elementos reaccionan suavemente a los cambios de estado.
-
----
-
-## Contexto del proyecto
-
-Genesis Pixel es una plataforma educativa premium enfocada en:
-
-* CSS Animations
-* CSS Transform
-* CSS Transitions
-* Motion Design moderno para la web
-* Interfaces interactivas
-
-Tecnologías:
-
-* Astro
-* Tailwind CSS
-* TypeScript
+* Introducción a las Transitions.
+* Diferencia entre animaciones y transiciones.
+* Cambios de estado en la interfaz.
+* Por qué existen las transiciones en UX moderna.
+* Ejemplos en botones y tarjetas.
+* Errores comunes.
+* Ejercicio práctico.
 
 ---
 
-## Referencia obligatoria
+## Lección 2 – transition-property
 
-Usa como base visual y estructural:
-
-* /css-animation/keyframes
-* /transform
-
-Debes mantener:
-
-* El mismo sistema de layout
-* Componentes UI reutilizables
-* Sidebar de capítulos
-* Navegación entre lecciones
-* Estilo oscuro premium
-* Bloques de código interactivos
-* Ejercicios prácticos
-* Callouts y consejos profesionales
+* Qué es `transition-property`.
+* Propiedades específicas vs `all`.
+* Qué propiedades se pueden animar.
+* Impacto en rendimiento.
+* Casos de uso reales.
+* Errores comunes.
+* Ejercicio práctico.
 
 ---
 
-# Enfoque pedagógico
+## Lección 3 – transition-duration
 
-Este capítulo NO debe explicarse como documentación técnica.
-
-Debe sentirse como una clase guiada donde el estudiante entiende:
-
-* Qué cambia cuando un usuario interactúa con la interfaz
-* Cómo los elementos “reaccionan” en lugar de simplemente animarse
-* Por qué las transiciones son fundamentales en UX moderna
-
----
-
-# Estilo narrativo obligatorio
-
-El contenido debe sentirse como una experiencia de aprendizaje guiada por un instructor.
-
-Debe incluir:
-
-* Explicaciones con situaciones reales
-* Ejemplos cotidianos de interfaces
-* Sensación de movimiento natural
-* Comparaciones con la vida real
-
-Ejemplo de estilo:
-
-NO:
-
-"transition-duration define la duración del efecto."
-
-SÍ:
-
-"Cuando un usuario pasa el cursor sobre un botón, no queremos que el cambio ocurra de forma instantánea. En la vida real, nada reacciona de manera abrupta. Las transiciones existen precisamente para darle a la interfaz una sensación de suavidad y naturalidad."
+* Qué es `transition-duration`.
+* Uso de segundos y milisegundos.
+* Sensación de velocidad en la UI.
+* Duraciones recomendadas en diseño moderno.
+* Ejemplos prácticos.
+* Ejercicio práctico.
 
 ---
 
-# Objetivo del capítulo
+## Lección 4 – transition-timing-function
 
-El estudiante debe entender que:
-
-* Las transiciones conectan estados.
-* No crean animaciones complejas, sino cambios fluidos.
-* Son la base de la interacción moderna en UI.
-
----
-
-# Estructura obligatoria para cada lección
-
-## Hero
-
-* Título
-* Descripción
-* Tiempo de lectura
-* Categoría CSS Transitions
+* Qué es el easing en transiciones.
+* `ease`, `linear`, `ease-in`, `ease-out`, `ease-in-out`.
+* Cómo cambia la percepción del movimiento.
+* Curvas de aceleración.
+* Casos de uso reales.
+* Ejercicio práctico.
 
 ---
 
-## Introducción narrativa
+## Lección 5 – transition-delay
 
-Explicar:
-
-* El problema de los cambios bruscos en UI
-* Por qué existen las transiciones
-* Cómo mejoran la experiencia del usuario
-
----
-
-## Conceptos principales
-
-Desarrollar cada propiedad en profundidad.
+* Qué es `transition-delay`.
+* Retrasos en interacciones.
+* Uso correcto de delays.
+* Errores comunes al abusar del delay.
+* Ejemplos prácticos.
+* Ejercicio práctico.
 
 ---
 
-## Ejemplos visuales
+## Lección 6 – Shorthand transition
 
-Cada ejemplo debe incluir:
-
-* HTML
-* CSS
-* Estado inicial y final
-* Explicación del comportamiento
-
----
-
-## Casos reales de uso
-
-Incluir ejemplos en:
-
-* Botones interactivos
-* Menús desplegables
-* Modales
-* Cards hover
-* Inputs de formularios
-* Dashboards modernos
+* Sintaxis completa de `transition`.
+* Orden recomendado de propiedades.
+* Código limpio y profesional.
+* Casos reales de uso.
+* Ejercicio práctico.
 
 ---
 
-## Consejo profesional
+## Lección 7 – Hover Interactions
 
-Bloque destacado sobre UX y rendimiento.
-
----
-
-## Errores comunes
-
-Explicar errores como:
-
-* Transiciones demasiado largas
-* Uso excesivo en todos los elementos
-* Falta de coherencia en la interfaz
-* Mala elección de propiedades animables
+* Cómo funcionan los estados hover.
+* Botones interactivos modernos.
+* Cards con efectos suaves.
+* Microinteracciones básicas.
+* Ejercicio práctico.
 
 ---
 
-## Ejercicio práctico
+## Lección 8 – Focus y estados de input
 
-Reto aplicado por lección.
-
----
-
-## Resumen
-
-Lista clara de conceptos aprendidos.
+* Transiciones en formularios.
+* Estados `focus` y `active`.
+* Feedback visual al usuario.
+* Accesibilidad básica.
+* Ejercicio práctico.
 
 ---
 
-## Navegación
+## Lección 9 – Transitions en componentes reales
 
-* Lección anterior
-* Lección siguiente
-
----
-
-# Capítulo 3 - CSS Transitions
-
-## Lección 1 - ¿Qué son las Transitions?
-
-* Qué problema resuelven en interfaces modernas
-* Diferencia entre animación y transición
-* Cambios de estado en UI
-* Ejemplos reales de interacción
-* Ejercicio práctico
+* Uso en modales.
+* Dropdowns y menús.
+* Navegaciones laterales.
+* Componentes dinámicos.
+* Ejercicio práctico.
 
 ---
 
-## Lección 2 - transition-property
+## Lección 10 – Errores comunes en Transitions
 
-* Qué propiedades pueden transicionarse
-* Transiciones específicas vs globales
-* Impacto en rendimiento
-* Ejercicio práctico
-
----
-
-## Lección 3 - transition-duration
-
-* Tiempo de respuesta visual
-* Sensación de fluidez
-* Valores recomendados en UX moderna
-* Ejercicio práctico
+* Uso excesivo de transiciones.
+* Duraciones demasiado largas o cortas.
+* Aplicar transition a todo (`all`).
+* Falta de consistencia en la UI.
+* Ejercicio práctico.
 
 ---
 
-## Lección 4 - transition-timing-function
+## Lección 11 – Performance en Transitions
 
-* Easing en transiciones
-* ease, linear, ease-in, ease-out
-* Curvas personalizadas
-* Sensación natural del movimiento
-* Ejercicio práctico
-
----
-
-## Lección 5 - transition-delay
-
-* Retrasos intencionales
-* Secuencias de interacción
-* Evitar delays innecesarios
-* Ejercicio práctico
+* Propiedades que afectan rendimiento.
+* GPU vs CPU.
+* Qué propiedades son más eficientes.
+* Buenas prácticas de optimización.
+* Ejercicio práctico.
 
 ---
 
-## Lección 6 - Shorthand transition
+## Lección 12 – Microinteracciones
 
-* Sintaxis completa
-* Orden recomendado
-* Código limpio y profesional
-* Ejercicio práctico
-
----
-
-## Lección 7 - Hover Interactions
-
-* Botones interactivos
-* Cards dinámicas
-* Microinteracciones modernas
-* UX premium
-* Ejercicio práctico
+* Qué son las microinteracciones.
+* Feedback inmediato al usuario.
+* Detalles que mejoran la experiencia.
+* Ejemplos en apps modernas.
+* Ejercicio práctico.
 
 ---
 
-## Lección 8 - Focus y estados de formulario
+## Lección 13 – Transitions combinadas
 
-* Inputs interactivos
-* Accesibilidad
-* Feedback visual inmediato
-* Ejercicio práctico
-
----
-
-## Lección 9 - Transitions en componentes reales
-
-* Modales
-* Dropdowns
-* Navegaciones
-* Sidebars
-* Ejercicio práctico
+* Combinar `transform` y `opacity`.
+* Efectos de entrada suaves.
+* Hover avanzados.
+* Animaciones sutiles profesionales.
+* Ejercicio práctico.
 
 ---
 
-## Lección 10 - Errores comunes en Transitions
+## Lección 14 – Sistema de Transitions
 
-* Uso excesivo
-* Duraciones incorrectas
-* Falta de consistencia
-* Mala elección de propiedades
-* Ejercicio práctico
-
----
-
-## Lección 11 - Performance en Transitions
-
-* GPU vs CPU
-* Propiedades seguras
-* Buenas prácticas de rendimiento
-* Ejercicio práctico
+* Consistencia en un design system.
+* Reglas globales de animación.
+* Escalabilidad en proyectos grandes.
+* Ejercicio práctico.
 
 ---
 
-## Lección 12 - Microinteracciones
+## Lección 15 – Proyecto Final de Transitions
 
-* Concepto de microinteracción
-* Feedback del usuario
-* Detalles que elevan la UI
-* Ejercicio práctico
-
----
-
-## Lección 13 - Transitions avanzadas combinadas
-
-* Hover + transform
-* Opacity + scale
-* Entradas suaves de elementos
-* Ejercicio práctico
-
----
-
-## Lección 14 - Sistema de animaciones consistente
-
-* Mantener coherencia en toda la UI
-* Design systems
-* Reglas de transición
-* Ejercicio práctico
-
----
-
-## Lección 15 - Proyecto final de Transitions
-
-Construir un sistema completo de interfaz interactiva que incluya:
-
-* Botones con microinteracciones
-* Cards con hover avanzado
-* Modal con apertura suave
-* Dropdown animado
-* Inputs con feedback visual
-* Sistema coherente de transitions
-* Optimización de rendimiento
-* Buenas prácticas de UX moderna
-* Desafío final del capítulo
+* Botones interactivos avanzados.
+* Cards con hover profesional.
+* Modal con apertura suave.
+* Dropdown animado.
+* Inputs con feedback visual.
+* Sistema completo de transiciones.
+* Optimización de UX.
+* Buenas prácticas finales.
+* Desafío final.
