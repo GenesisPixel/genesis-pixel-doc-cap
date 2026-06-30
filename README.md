@@ -151,6 +151,8 @@ Contributions are welcome to improve learning content and examples. Please ensur
 3. Commit your changes following [Conventional Commits](https://www.conventionalcommits.org/)
 4. Push to your branch and open a Pull Request
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+#
+<div align="center">❤️ Hecho con amor por <a href="https://sebas-dev.vercel.app/">Sebastián V.</a></div>
