@@ -1,4 +1,6 @@
-# DOC-CAPITULOS
+<img src="/svg/svg-8.png" width="40" /> <img src="/svg/svg-1.png" width="40" /> <img src="/svg/svg-2.png" width="40" /> <img src="/svg/svg-4.png" width="40" />
+
+# GenesisPixel Documentation
 
 A comprehensive educational documentation covering modern CSS animations, 3D graphics with Three.js, and shader programming. This project serves as a structured learning path for developers who want to master interactive web experiences.
 
